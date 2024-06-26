@@ -13,6 +13,6 @@ public class WikimediaData {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(columnDefinition="LONGTEXT")
+    @Lob
     private String wikiEventData;
 }
